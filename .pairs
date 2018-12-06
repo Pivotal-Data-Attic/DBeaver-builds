@@ -1,0 +1,7 @@
+pairs:
+  np: Nikhil Pawar; npawar
+  gs: Gavin Shaw; gshaw
+email:
+  domain: pivotal.io
+  no_solo_prefix: true
+global: true
