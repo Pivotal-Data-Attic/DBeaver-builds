@@ -11,7 +11,7 @@ then
     echo Could not find branch for $storyId
 else
     echo $branchname
-    git co $branchname
+    git checkout $branchname
 
     #start dbeaver
     ./DBeaver.app/Contents/MacOS/dbeaver
