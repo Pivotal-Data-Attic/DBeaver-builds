@@ -18,7 +18,7 @@ git add .
 git commit -m "$commitmessage"
 
 #push commit
-git push
+git push -u origin $branchname
 
 # Checkout to master because we don't want people branching off branches. 
 git checkout master
