@@ -15,4 +15,9 @@ else
 
     #start dbeaver
     ./DBeaver.app/Contents/MacOS/dbeaver
+
+    #clean up the repo from starting DBeaver
+    git add .
+    git stash
+    git stash drop
 fi
