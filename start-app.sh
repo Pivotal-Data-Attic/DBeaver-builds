@@ -5,7 +5,7 @@ echo $storyId
 #find the branch that contains story number and switch to it
 git fetch
 git pull
-branchname=$(git branch -a | grep $storyId)
+branchname=$(git branch -r | grep $storyId | sed 's:origin/::')
 if [ -z $branchname ]
 then
     echo Could not find branch for $storyId
