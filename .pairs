@@ -1,6 +1,8 @@
 pairs:
   np: Nikhil Pawar; npawar
   gs: Gavin Shaw; gshaw
+  dd: Dmitriy Dubson; ddubson
+  zm: Zach Marcin; zmarcin
 email:
   domain: pivotal.io
   no_solo_prefix: true
