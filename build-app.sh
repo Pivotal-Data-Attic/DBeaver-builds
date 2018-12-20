@@ -7,6 +7,8 @@ mvn clean package
 
 #switch or create a branch with branchname
 cd ~/workspace/dbeaver-builds
+git checkout master
+git pull -r
 git checkout $(git show-ref --verify --quiet refs/heads/$branchname || echo '-b')$branchname
 
 #copy the built app to the built-app repo
@@ -18,7 +20,7 @@ git add .
 git commit -m "$commitmessage"
 
 #push commit
-git push -u origin $branchname
+git push -u origin $branchname -force
 
 # Checkout to master because we don't want people branching off branches. 
 git checkout master
