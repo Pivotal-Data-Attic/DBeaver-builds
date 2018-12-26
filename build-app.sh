@@ -1,3 +1,5 @@
+set +e
+
 cd ~/workspace/dbeaver
 branchname=$(git branch | grep \* | cut -d ' ' -f2)
 commitmessage=$(git log --format=%B -n 1 $branchname)
@@ -20,7 +22,7 @@ git add .
 git commit -m "$commitmessage"
 
 #push commit
-git push -u origin $branchname -force
+git push -u origin $branchname --force-with-lease
 
-# Checkout to master because we don't want people branching off branches. 
+# Checkout to master because we don't want people branching off branches.
 git checkout master
