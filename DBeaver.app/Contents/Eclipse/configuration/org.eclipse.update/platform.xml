@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1546467446806" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.5.100.v20180829-1443" url="features/org.eclipse.equinox.p2.core.feature_1.5.100.v20180829-1443/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ext.mysql.feature" version="2.1.85.201901022216" url="features/org.jkiss.dbeaver.ext.mysql.feature_2.1.85.201901022216/" plugin-identifier="org.jkiss.dbeaver.ext.mysql">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.100.v20180301-0132" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.100.v20180301-0132/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ext.db2.feature" version="2.1.85.201901022216" url="features/org.jkiss.dbeaver.ext.db2.feature_2.1.85.201901022216/" plugin-identifier="org.jkiss.dbeaver.ext.db2">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.2.100.v20180822-1357" url="features/org.eclipse.equinox.p2.discovery.feature_1.2.100.v20180822-1357/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ext.oracle.feature" version="2.1.85.201901022216" url="features/org.jkiss.dbeaver.ext.oracle.feature_2.1.85.201901022216/" plugin-identifier="org.jkiss.dbeaver.ext.oracle">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" version="3.14.2.v20180801-2237" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.14.2.v20180801-2237/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.100.v20180829-1443" url="features/org.eclipse.equinox.p2.extras.feature_1.4.100.v20180829-1443/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ext.exasol.feature" version="1.0.58.201901022216" url="features/org.jkiss.dbeaver.ext.exasol.feature_1.0.58.201901022216/" plugin-identifier="org.jkiss.dbeaver.ext.exasol">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ext.wmi.feature" version="2.0.102.201901022216" url="features/org.jkiss.dbeaver.ext.wmi.feature_2.0.102.201901022216/" plugin-identifier="org.jkiss.dbeaver.ext.wmi">
+		</feature>
+		<feature id="org.jkiss.dbeaver.rcp.feature" version="2.1.75.201901022216" url="features/org.jkiss.dbeaver.rcp.feature_2.1.75.201901022216/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.100.v20180301-0201" url="features/org.eclipse.ecf.core.ssl.feature_1.1.100.v20180301-0201/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.5.1.v20180810-0833" url="features/org.eclipse.ecf.core.feature_1.5.1.v20180810-0833/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.2.v20180801-2237" url="features/org.eclipse.ecf.filetransfer.feature_3.14.2.v20180801-2237/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" version="1.1.100.v20180301-0132" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.100.v20180301-0132/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ce.feature" version="5.3.2.201901022216" url="features/org.jkiss.dbeaver.ce.feature_5.3.2.201901022216/" plugin-identifier="org.jkiss.dbeaver.core.application">
+		</feature>
+		<feature id="org.jkiss.dbeaver.ext.generic.feature" version="2.1.86.201901022216" url="features/org.jkiss.dbeaver.ext.generic.feature_2.1.86.201901022216/" plugin-identifier="org.jkiss.dbeaver.ext.generic">
+		</feature>
+		<feature id="org.jkiss.dbeaver.core.feature" version="5.3.2.201901022216" url="features/org.jkiss.dbeaver.core.feature_5.3.2.201901022216/" plugin-identifier="org.jkiss.dbeaver.core">
+		</feature>
+		<feature id="org.jkiss.dbeaver.standalone.feature" version="5.3.2.201901022216" url="features/org.jkiss.dbeaver.standalone.feature_5.3.2.201901022216/" plugin-identifier="org.jkiss.dbeaver.core.application">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.100.v20180829-1443" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.100.v20180829-1443/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.debug.feature" version="5.3.2.201901022216" url="features/org.jkiss.dbeaver.debug.feature_5.3.2.201901022216/">
+		</feature>
+	</site>
+</config>
