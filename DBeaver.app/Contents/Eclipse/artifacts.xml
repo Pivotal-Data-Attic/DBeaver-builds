@@ -3,7 +3,7 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1546545758091'/>
+    <property name='p2.timestamp' value='1546545953662'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -21,9 +21,24 @@
         <property name='download.size' value='25665'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.core.application' version='5.3.2.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='174175'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.resources' version='3.13.100.v20180828-0158'>
       <properties size='1'>
         <property name='download.size' value='890744'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.greenplum' version='1.0.1.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='30335'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.generic' version='2.3.86.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='189198'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui' version='2.5.200.v20180822-1357'>
@@ -41,27 +56,19 @@
         <property name='download.size' value='24036'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.snowflake.ui' version='1.0.20.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='13099'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.sat4j.core' version='2.3.5.v201308161310'>
       <properties size='1'>
         <property name='download.size' value='362968'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.oracle.feature' version='2.1.85.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4921'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer' version='5.0.100.v20180301-0132'>
       <properties size='1'>
         <property name='download.size' value='53286'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.h2' version='1.0.55.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4768'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.core.feature' version='1.5.100.v20180829-1443'>
@@ -71,6 +78,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.athena' version='1.0.6.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='25393'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.gef' version='3.11.0.201606061308'>
       <properties size='1'>
@@ -82,14 +94,14 @@
         <property name='download.size' value='17380'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mssql' version='1.0.94.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='209917'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.app' version='1.1.200.v20180822-1302'>
       <properties size='1'>
         <property name='download.size' value='57612'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.netezza' version='1.0.65.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4943'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.util' version='1.1.100.v20180827-1235'>
@@ -97,9 +109,9 @@
         <property name='download.size' value='83310'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.derby' version='1.1.85.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.data.transfer' version='1.0.10.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='5598'/>
+        <property name='download.size' value='294425'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.common' version='3.10.100.v20180827-1235'>
@@ -107,10 +119,36 @@
         <property name='download.size' value='122058'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.generic.feature' version='2.1.86.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='5271'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.ui.locks' version='1.0.45.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='39567'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.reconciler.dropins' version='1.2.100.v20180822-1354'>
       <properties size='1'>
         <property name='download.size' value='50619'/>
       </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.utils' version='2.1.83.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='77654'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.db2.feature' version='2.1.85.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4898'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.core.ssl.feature' version='1.1.100.v20180301-0201'>
       <properties size='1'>
@@ -125,9 +163,19 @@
         <property name='download.size' value='119364'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.clickhouse' version='1.0.5.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='5804'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.engine' version='2.6.100.v20180822-1302'>
       <properties size='1'>
         <property name='download.size' value='215232'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.erd' version='2.0.102.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='301920'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.ui' version='3.24.2.v20180904-2231'>
@@ -140,14 +188,24 @@
         <property name='download.size' value='554741'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.image' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='30327'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.forms' version='3.7.300.v20180828-1350'>
       <properties size='1'>
         <property name='download.size' value='327103'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui' version='5.1.15.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mysql' version='2.1.85.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='699392'/>
+        <property name='download.size' value='403319'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.net.ssh' version='1.0.21.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='15686'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security' version='1.2.500.v20180827-1235'>
@@ -160,19 +218,9 @@
         <property name='download.size' value='172269'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.hex' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='155926'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.vividsolutions.jts' version='1.13.0'>
       <properties size='1'>
         <property name='download.size' value='806382'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.base' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='258802'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ltk.ui.refactoring' version='3.9.200.v20180828-0626'>
@@ -185,6 +233,11 @@
         <property name='download.size' value='109029'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.data' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='890992'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatechecker' version='1.2.100.v20180827-1122'>
       <properties size='1'>
         <property name='download.size' value='18604'/>
@@ -195,15 +248,23 @@
         <property name='download.size' value='115536'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.snowflake.core' version='1.0.20.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.firebird' version='1.0.101.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='17591'/>
+        <property name='download.size' value='50019'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.eclipse' version='2.2.100.v20180822-1354'>
       <properties size='1'>
         <property name='download.size' value='131630'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.wmi.feature' version='2.0.102.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4943'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.gallery' version='1.0.0.201812241324'>
       <properties size='1'>
@@ -220,9 +281,19 @@
         <property name='download.size' value='164588'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.db2' version='2.1.85.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='526448'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.tukaani.xz' version='1.8.0.v20180207-1613'>
       <properties size='1'>
         <property name='download.size' value='128232'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.es.ui' version='1.0.11.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='11228'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository' version='2.4.100.v20180822-1354'>
@@ -255,6 +326,11 @@
         <property name='download.size' value='74618'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.core' version='5.3.2.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='1153479'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.team.ui' version='3.8.200.v20180827-1338'>
       <properties size='1'>
         <property name='download.size' value='1463896'/>
@@ -268,6 +344,24 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.core.commands' version='3.9.200.v20180827-1727'>
       <properties size='1'>
         <property name='download.size' value='115725'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.standalone.feature' version='5.3.2.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='5565'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.sql' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='716722'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.snowflake.ui' version='1.0.20.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='13100'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox' version='1.1.100.v20180822-1258'>
@@ -288,10 +382,13 @@
         <property name='download.size' value='696370'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.exasol' version='1.0.58.201901032001'>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.rcp.feature' version='2.1.75.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='294010'/>
+        <property name='download.size' value='6828'/>
       </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656'>
       <properties size='1'>
@@ -301,24 +398,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.di' version='1.2.300.v20180906-1121'>
       <properties size='1'>
         <property name='download.size' value='17873'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.exasol.feature' version='1.0.58.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4940'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.phoenix' version='1.0.69.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='7691'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.net.ssh.ui' version='1.0.21.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='14252'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='2.6.0.v201404270220'>
@@ -331,24 +410,27 @@
         <property name='download.size' value='432872'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.data.transfer' version='1.0.10.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='294424'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring' version='3.9.100.v20180828-0626'>
       <properties size='1'>
         <property name='download.size' value='346438'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.mysql.feature' version='2.1.85.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4926'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.7.200.v20180827-1235'>
       <properties size='1'>
         <property name='download.size' value='133512'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.format.sqlworkbenchj' version='1.0.7.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.sqlite' version='1.0.49.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='7012'/>
+        <property name='download.size' value='23947'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi.compatibility.state' version='1.1.200.v20180827-1536'>
@@ -361,6 +443,11 @@
         <property name='download.size' value='63189'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.import_config' version='2.1.63.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='58810'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.transport.ecf' version='1.2.100.v20180822-1354'>
       <properties size='1'>
         <property name='download.size' value='44271'/>
@@ -371,19 +458,27 @@
         <property name='download.size' value='14679'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.vertica' version='2.0.30.201901032001'>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.core.feature' version='5.3.2.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='41217'/>
+        <property name='download.size' value='5580'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql' version='2.1.73.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='667816'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.hana' version='1.0.29.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='6111'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.log' version='1.2.300.v20180827-1331'>
       <properties size='1'>
         <property name='download.size' value='170339'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.netezza' version='1.0.65.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4943'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.httpclient4.ssl' version='1.1.100.v20180301-0132'>
@@ -429,24 +524,9 @@
         <property name='download.size' value='26583'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.data' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='890993'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='javax.inject' version='1.0.0.v20091030'>
       <properties size='1'>
         <property name='download.size' value='14411'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.db2.zos' version='1.0.3.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='14279'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.entity' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='1147'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.objectweb.asm' version='6.2.1.v20180823-1831'>
@@ -459,14 +539,14 @@
         <property name='download.size' value='346552'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.snowflake.core' version='1.0.20.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='17592'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.core' version='0.12.300.v20180828-0227'>
       <properties size='1'>
         <property name='download.size' value='211750'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.navigator' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='499071'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jface.text' version='3.14.0.v20180824-1140'>
@@ -474,9 +554,9 @@
         <property name='download.size' value='1057997'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.erd' version='2.0.102.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.hex' version='1.0.0.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='301919'/>
+        <property name='download.size' value='155925'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.codec' version='1.10.0.v20180409-1845'>
@@ -489,6 +569,16 @@
         <property name='download.size' value='181318'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.base' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='258801'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.informix' version='1.0.91.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='7703'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.macosx' version='1.3.100.v20180828-0158'>
       <properties size='1'>
         <property name='download.size' value='11218'/>
@@ -497,11 +587,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.manipulator' version='2.1.100.v20180827-1122'>
       <properties size='1'>
         <property name='download.size' value='26583'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.hsqldb' version='1.0.47.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='12581'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.annotations' version='1.6.200.v20180817-1215'>
@@ -524,9 +609,14 @@
         <property name='download.size' value='616652'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.debug.ui' version='1.0.29.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.xml' version='1.0.0.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='74944'/>
+        <property name='download.size' value='22964'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.data.gis' version='1.0.24.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='8898'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.xmi' version='2.15.0.v20180706-1146'>
@@ -569,14 +659,14 @@
         <property name='download.size' value='52884'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui' version='5.1.15.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='699393'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.operations' version='2.5.100.v20180822-1302'>
       <properties size='1'>
         <property name='download.size' value='75952'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.oracle' version='2.1.85.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='573683'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.themes' version='1.2.200.v20180828-1350'>
@@ -602,6 +692,11 @@
         <property name='download.size' value='1441175'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.net.ssh.jsch' version='1.1.10.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='8090'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.observable' version='1.6.300.v20180827-2028'>
       <properties size='1'>
         <property name='download.size' value='315293'/>
@@ -620,17 +715,19 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.standalone.feature' version='5.3.2.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.debug.ui' version='1.0.29.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='5565'/>
+        <property name='download.size' value='74945'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding' version='1.7.0.v20180827-2028'>
       <properties size='1'>
         <property name='download.size' value='188251'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.phoenix' version='1.0.69.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='7692'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services' version='3.7.100.v20180827-1536'>
@@ -638,9 +735,9 @@
         <property name='download.size' value='125941'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql.debug.core' version='1.0.29.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.debug.core' version='1.0.29.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='39429'/>
+        <property name='download.size' value='54066'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.logging' version='1.2.0.v20180409-1502'>
@@ -674,14 +771,22 @@
         <property name='download.size' value='157393'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.import_config' version='2.1.63.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='58809'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.google.guava' version='21.0.0.v20170206-1425'>
       <properties size='1'>
         <property name='download.size' value='2675014'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.exasol.feature' version='1.0.58.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4941'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.db2.zos' version='1.0.3.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='14280'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem' version='1.7.200.v20180828-0158'>
@@ -692,16 +797,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.jarprocessor' version='1.1.100.v20180822-1302'>
       <properties size='1'>
         <property name='download.size' value='73526'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.sqlite' version='1.0.49.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='23947'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql' version='2.1.73.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='667816'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.8.100.v20180827-1235'>
@@ -719,30 +814,29 @@
         <property name='download.size' value='475827'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ce.feature' version='5.3.2.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.exasol' version='1.0.58.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='4885'/>
+        <property name='download.size' value='294010'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.swt' version='0.14.300.v20180906-1121'>
       <properties size='1'>
         <property name='download.size' value='175335'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.core.feature' version='5.3.2.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.vertica' version='2.0.30.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='5580'/>
+        <property name='download.size' value='41218'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide' version='3.14.100.v20180828-1350'>
       <properties size='1'>
         <property name='download.size' value='2499480'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.net.ssh.ui' version='1.0.21.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='14253'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator' version='1.3.100.v20180827-1122'>
@@ -770,11 +864,6 @@
         <property name='download.size' value='46701'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.teradata' version='1.0.68.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='5228'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.debug.core' version='3.13.0.v20180821-1744'>
       <properties size='1'>
         <property name='download.size' value='397563'/>
@@ -790,11 +879,6 @@
         <property name='download.size' value='253663'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.hana' version='1.0.29.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='6110'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.extensionlocation' version='1.3.100.v20180822-1302'>
       <properties size='1'>
         <property name='download.size' value='35860'/>
@@ -805,24 +889,14 @@
         <property name='download.size' value='29191'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.content' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='1146'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.ui.colortheme' version='1.0.7.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='2532'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ssl' version='1.2.100.v20180301-0132'>
       <properties size='1'>
         <property name='download.size' value='14827'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.xml' version='1.0.0.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.model' version='1.0.89.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='22964'/>
+        <property name='download.size' value='1343673'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.console' version='1.1.100.v20180822-1258'>
@@ -845,6 +919,11 @@
         <property name='download.size' value='315491'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.bigquery' version='1.0.6.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='28448'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='com.jcraft.jsch' version='0.1.54.v20170116-1932'>
       <properties size='1'>
         <property name='download.size' value='302580'/>
@@ -855,9 +934,27 @@
         <property name='download.size' value='32344'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.oracle' version='2.1.85.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='573683'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.7.100.v20180817-1401'>
       <properties size='1'>
         <property name='download.size' value='105557'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.debug.feature' version='5.3.2.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='5135'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.navigator' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='499070'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.help' version='3.8.200.v20180821-0700'>
@@ -865,22 +962,14 @@
         <property name='download.size' value='269620'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.derby' version='1.1.85.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='5598'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi.util' version='3.5.100.v20180827-1536'>
       <properties size='1'>
         <property name='download.size' value='73347'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.mysql.feature' version='2.1.85.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4925'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.sample.database' version='1.0.37.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='420201'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.property' version='1.6.300.v20180827-2028'>
@@ -898,9 +987,19 @@
         <property name='download.size' value='20307'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.ui.tipoftheday' version='1.0.6.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='11150'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.bindings' version='0.12.200.v20180828-0227'>
       <properties size='1'>
         <property name='download.size' value='46043'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.entity' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='1147'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.bidi' version='1.1.200.v20180827-1235'>
@@ -948,11 +1047,6 @@
         <property name='download.size' value='237694'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mockdata' version='1.0.26.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='89851'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.screenshots' version='3.24.2.v20180904-2231'>
       <properties size='1'>
         <property name='download.size' value='112435'/>
@@ -961,21 +1055,6 @@
     <artifact classifier='osgi.bundle' id='org.apache.felix.scr' version='2.0.14.v20180822-1822'>
       <properties size='1'>
         <property name='download.size' value='371044'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.informix' version='1.0.91.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='7703'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql.debug.ui' version='1.0.29.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='17659'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.hive' version='1.0.6.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='7297'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.text' version='3.7.0.v20180822-1511'>
@@ -988,11 +1067,6 @@
         <property name='download.size' value='241956'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.debug.core' version='1.0.29.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='54065'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.macosx' version='1.101.100.v20180827-1235'>
       <properties size='1'>
         <property name='download.size' value='17428'/>
@@ -1003,49 +1077,27 @@
         <property name='download.size' value='412381'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.utils' version='2.1.83.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql.debug.core' version='1.0.29.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='77653'/>
+        <property name='download.size' value='39430'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.greenplum' version='1.0.1.201901032001'>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.oracle.feature' version='2.1.85.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='30335'/>
+        <property name='download.size' value='4922'/>
       </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.generic' version='2.3.86.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.hsqldb' version='1.0.47.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='189198'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.ui.tipoftheday' version='1.0.6.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='11150'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.data.gis' version='1.0.24.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='8898'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.athena' version='1.0.6.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='25392'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.core.application' version='5.3.2.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='174175'/>
+        <property name='download.size' value='12581'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.renderers.swt' version='0.14.300.v20180828-0227'>
       <properties size='1'>
         <property name='download.size' value='250518'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.net.ssh.jsch' version='1.1.10.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='8090'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jface.databinding' version='1.8.300.v20180828-0836'>
@@ -1060,11 +1112,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.ui.locks' version='1.0.45.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='39567'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jsch.ui' version='1.3.200.v20180827-1041'>
       <properties size='1'>
@@ -1089,41 +1136,15 @@
         <property name='download.size' value='805258'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.clickhouse' version='1.0.5.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='5804'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.repository' version='1.3.100.v20180822-1302'>
       <properties size='1'>
         <property name='download.size' value='133540'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.generic.feature' version='2.1.86.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='5271'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher' version='1.5.100.v20180827-1352'>
       <properties size='1'>
         <property name='download.size' value='54576'/>
       </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.h2' version='1.0.55.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4767'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.db2.feature' version='2.1.85.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4898'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore' version='2.15.0.v20180722-1159'>
       <properties size='1'>
@@ -1135,9 +1156,9 @@
         <property name='download.size' value='52526'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mysql' version='2.1.85.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.ui.colortheme' version='1.0.7.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='403319'/>
+        <property name='download.size' value='2533'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ecf.identity' version='3.9.1.v20180810-0833'>
@@ -1148,6 +1169,24 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.core' version='2.5.100.v20180822-1532'>
       <properties size='1'>
         <property name='download.size' value='76569'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ce.feature' version='5.3.2.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='4885'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.content' version='1.0.0.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='1146'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.teradata' version='1.0.68.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='5228'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.opal.header' version='1.0.0.201812241324'>
@@ -1170,13 +1209,10 @@
         <property name='download.size' value='207398'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.debug.feature' version='5.3.2.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.sample.database' version='1.0.37.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='5135'/>
+        <property name='download.size' value='420202'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.w3c.dom.smil' version='1.0.1.v200903091627'>
       <properties size='1'>
@@ -1193,16 +1229,6 @@
         <property name='download.size' value='42333'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.firebird' version='1.0.101.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='50018'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.image' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='30328'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin' version='2.1.100.v20180822-1258'>
       <properties size='1'>
         <property name='download.size' value='36964'/>
@@ -1216,9 +1242,24 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql.debug.ui' version='1.0.29.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='17660'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench.texteditor' version='3.11.100.v20180824-1030'>
       <properties size='1'>
         <property name='download.size' value='652968'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mssql' version='1.0.94.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='209916'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.format.sqlworkbenchj' version='1.0.7.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='7013'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.httpclient4.feature' version='3.14.2.v20180801-2237'>
@@ -1249,11 +1290,6 @@
         <property name='download.size' value='360763'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.model' version='1.0.89.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='1343672'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide.application' version='1.3.0.v20180828-1350'>
       <properties size='1'>
         <property name='download.size' value='99389'/>
@@ -1269,22 +1305,19 @@
         <property name='download.size' value='2122995'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.core' version='5.3.2.201901032001'>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.hive' version='1.0.6.201901032004'>
       <properties size='1'>
-        <property name='download.size' value='1153479'/>
+        <property name='download.size' value='7297'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.rcp.feature' version='2.1.75.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='6830'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs' version='3.10.100.v20180817-1215'>
       <properties size='1'>
         <property name='download.size' value='107688'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mockdata' version='1.0.26.201901032004'>
+      <properties size='1'>
+        <property name='download.size' value='89851'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.services' version='1.3.200.v20180906-1121'>
@@ -1302,11 +1335,6 @@
         <property name='download.size' value='36448'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.sql' version='1.0.0.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='716723'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.jexl' version='2.1.1'>
       <properties size='1'>
         <property name='download.size' value='267634'/>
@@ -1317,42 +1345,14 @@
         <property name='download.size' value='126416'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ext.wmi.feature' version='2.0.102.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='4944'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.net.ssh' version='1.0.21.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='15685'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.net' version='1.3.300.v20180827-1041'>
       <properties size='1'>
         <property name='download.size' value='74298'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.es.ui' version='1.0.11.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='11227'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.emf.xpath' version='0.2.200.v20180828-0227'>
       <properties size='1'>
         <property name='download.size' value='49567'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.bigquery' version='1.0.6.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='28448'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.db2' version='2.1.85.201901032001'>
-      <properties size='1'>
-        <property name='download.size' value='526448'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.batik.css' version='1.10.0.v20180703-1553'>
