@@ -3,7 +3,7 @@
 <repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1547658555022'/>
+    <property name='p2.timestamp' value='1548189222469'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -11,12 +11,12 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='binary' id='org.jkiss.dbeaver.core.product.executable.cocoa.macosx.x86_64' version='5.3.3.201901161708'>
+    <artifact classifier='binary' id='org.jkiss.dbeaver.core.product.executable.cocoa.macosx.x86_64' version='5.3.4.201901222032'>
       <properties size='1'>
-        <property name='download.size' value='153151'/>
+        <property name='download.size' value='153150'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='org.jkiss.dbeaver.ce.feature_root' version='5.3.3.201901161708'>
+    <artifact classifier='binary' id='org.jkiss.dbeaver.ce.feature_root' version='5.3.4.201901222032'>
       <properties size='1'>
         <property name='download.size' value='13460'/>
       </properties>
